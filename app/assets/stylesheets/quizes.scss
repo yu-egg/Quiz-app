@@ -7,6 +7,23 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+.top-title {
+  font-size: 24px;
+  color: darkmagenta;
+  font-weight: bold;
+  position: relative;
+}
+
+#title-quiz{
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid red;
+  width: 400px;
+  margin: 25px auto;
+  background: lightcoral;
+}
+
 .container {
   width: 400px;
   margin: 8px auto;
