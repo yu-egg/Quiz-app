@@ -2,6 +2,7 @@
 
     'use strict';
     
+    
     {
       const question = document.getElementById('question');
       const choices = document.getElementById('choices');
@@ -15,6 +16,7 @@
         {q: '次のうち最初にリリースされた言語は?', c: ['Python', 'JavaScript']},
         {q: 'インタプリタ言語の特徴は?', c: ['コードを一行一行機械語に翻訳して実行していく', '一度すべてのコードを機械語に翻訳してから実行する']},
         {q: 'コンパイラ言語の特徴は?', c: ['一度すべてのコードを機械語に翻訳してから実行する', 'コードを一行一行機械語に翻訳して実行していく']},
+        {q: 'turbolinksの説明で正しいのは?', c: ['自動的にページを取ってきてbody要素を入れ替えてhead要素にくっつけるという作業をしている', 'リンク先の全てのページを読み込む']},
       ]);
       let currentNum = 0;
       let isAnswered;
