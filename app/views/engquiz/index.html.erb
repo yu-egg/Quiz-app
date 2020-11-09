@@ -1,14 +1,17 @@
-<div class="top-title">
-    <p id="title-quiz">English Quiz!!</p>
-</div>
-  <section class="container">
-    <p id="question"></p>
-    <ul id="choices"></ul>
-    <div id="btn" class="disabled">Next</div>
+<body class="onlybody">
 
-    <section id="result" class="hidden">
-      <p></p>
-      <a href="">Replay?</a>
+  <div class="eng-top-title">
+      <p id="title-quiz">English Quiz!!</p>
+  </div>
+    <section class="eng-container">
+      <p id="eng-question"></p>
+      <ul id="eng-choices"></ul>
+      <div id="eng-btn" class="disabled">Next</div>
+
+      <section id="eng-result" class="hidden">
+        <p></p>
+        <a href="">Replay?</a>
+      </section>
     </section>
-  </section>
-<%= link_to "IT-quiz", quizes_index_path, class:"quizes" %>
+  <%= link_to "IT-quiz", quizes_index_path, class:"quizes" %>
+</body>

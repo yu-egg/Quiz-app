@@ -4,14 +4,14 @@ window.addEventListener("DOMContentLoaded", () =>{
   
   
   {
-    const question = document.getElementById('question');
-    const choices = document.getElementById('choices');
-    const btn = document.getElementById('btn');
-    const result = document.getElementById('result');
-    const scoreLabel = document.querySelector('#result > p');
+    const question = document.getElementById('eng-question');
+    const choices = document.getElementById('eng-choices');
+    const btn = document.getElementById('eng-btn');
+    const result = document.getElementById('eng-result');
+    const scoreLabel = document.querySelector('#eng-result > p');
     
     const quizSet = shuffle([
-      {q: 'Rubyのフレームワークといえば?', c: ['Ruby On Rails', 'Node.js']},
+      {q: '?', c: ['', '']},
       
     ]);
     let currentNum = 0;
