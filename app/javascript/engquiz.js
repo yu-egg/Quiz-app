@@ -11,7 +11,17 @@ window.addEventListener("DOMContentLoaded", () =>{
     const scoreLabel = document.querySelector('#eng-result > p');
     
     const quizSet = shuffle([
-      {q: '?', c: ['', '']},
+      {q: 'これは良い本です', c: ['This is a good book.']},
+      {q: 'この辞書は良い', c: ['This dictionary is good.']},
+      {q: 'あれは面白い本ですか？ーはい、そうです。', c: ['Is that an interesting book? -Yes, it is.']},
+      {q: 'あの本は面白いですか？ーいえ、面白くないです。', c: ['Is that book interesting? -No, it is not']},
+      {q: 'これは正しくない', c: ['This is not right.']},
+      {q: 'あれは本物の花ではない', c: ['That is not a real flower.']},
+      {q: 'このスープはあまり美味しくない', c: ['This soup is not very tasty.']},
+      {q: 'これは塩ですか？それとも砂糖ですか？ー砂糖です', c: ['Is this salt or sugar? -It is sugar.']},
+      {q: 'あの女性はフランス人ですか、それともイタリア人ですか？ーフランス人です', c: ['is that woman French or Italian? -She is French.']},
+      {q: 'あの男性は日本人ですか、それとも中国人ですか？ー日本人です', c: ['Is that men Japanese or chinese? -He is Japanese.']},
+      {q: '', c: ['']},
       
     ]);
     let currentNum = 0;
