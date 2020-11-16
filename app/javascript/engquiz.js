@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", () =>{
       {q: 'このスープはあまり美味しくない', c: ['This soup is not very tasty.']},
       {q: 'これは塩ですか？それとも砂糖ですか？ー砂糖です', c: ['Is this salt or sugar? -It is sugar.']},
       {q: 'あの女性はフランス人ですか、それともイタリア人ですか？ーフランス人です', c: ['is that woman French or Italian? -She is French.']},
-      
+      {q: 'あの男性は日本人ですか、それとも中国人ですか？ー日本人です', c: ['Is that men Japanese or chinese? -He is Japanese.']},
       {q: '', c: ['']},
       
     ]);
