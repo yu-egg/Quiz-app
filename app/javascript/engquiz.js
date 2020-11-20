@@ -23,8 +23,7 @@ window.addEventListener("DOMContentLoaded", () =>{
       {q: 'あの男性は日本人ですか、それとも中国人ですか？ー日本人です', c: ['Is that men Japanese or chinese? -He is Japanese.']},
       {q: '自動詞は？', c: ['Daniel smiled at Nancy.','She kissed him gently.']},
       {q: '他動詞は？', c: ['She kissed him gently.', 'Daniel smiled at Nancy.']},
-      {q: '他動詞は？', c: ['She kissed him gently.', 'Daniel smiled at Nancy.']},
-      
+    
     ]);
     let currentNum = 0;
     let isAnswered;
