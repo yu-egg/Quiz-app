@@ -24,7 +24,6 @@ window.addEventListener("DOMContentLoaded", () =>{
       {q: '自動詞は？', c: ['Daniel smiled at Nancy.','She kissed him gently.']},
       {q: '他動詞は？', c: ['She kissed him gently.', 'Daniel smiled at Nancy.']},
       {q: '他動詞は？', c: ['She kissed him gently.', 'Daniel smiled at Nancy.']},
-      {q: '他動詞は？', c: ['She kissed him gently.', 'Daniel smiled at Nancy.']},
 
     ]);
     let currentNum = 0;
